@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Quicksand:wght@600&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+.left-container {
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+
+.left-container .title {
+  font-size: 65px;
+  font-family: "Quicksand", sans-serif;
+  color: #258464;
+  padding-left: 289px;
+  padding-top: 138px;
+}
+
+.sec-title {
+  /* width: 661px; */
+  height: 148px;
+  font-size: 31px;
+  font-family: "Quicksand", sans-serif;
+  color: #591495;
+  padding-left: 289px;
+  padding-top: 20px;
+}
+
+.sec-title p {
+  font-size: 22px;
+  font-weight: 1;
+}
+
+.sec-title span {
+  font-size: 22px;
+  font-weight: 1;
+}
+
+.roundtxt {
+  padding-left: 321px;
+  padding-top: 114px;
+}
+
+.right-container {
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+#img1 {
+  position: absolute;
+  /* z-index: 2; */
+}
+
+#img2 {
+  position: absolute;
+  /* z-index: 2; */
+}
+
+#img3 {
+  position: absolute;
+}
+
+#img4 {
+  position: absolute;
+  z-index: 3;
+}
+
+.mainMask {
+  width: 762px;
+  height: 602.68px;
+  padding-top: 55.94px;
+  padding-left: 37px;
+}
+
+.ellipse {
+  padding-left: 58px;
+}
+
+.pinksplash {
+  width: 762px;
+  height: 602.68px;
+}
+
+.yellowsplash {
+  width: 564.49px;
+  height: 564.49px;
+  padding-top: 33.94px;
+  padding-left: 255.63px;
+}
+
+.heading{
+  /* padding-left: 34px; */
+  padding-top: 23.67px;
+}
+
+.getSample{
+  padding-top: 17px;
+}
+
+.videoClip{
+  position: absolute;
+  padding-top: 1041px;
+  padding-left: 4px;
+  /* padding-right: 339px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 1241px;
+  height: 601px;
+  z-index: 999;
+}
+
+.videoshadow{
+  position: absolute;
+  z-index: 9999;
+  width: 1241px;
+  height: 601px;
+}
+
+.videoimg{
+  position: absolute;
+  width: 1241px;
+  height: 601px;
+}
+
+.play{
+  display: flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  padding-left: 624px;
+}
+
+.vidbeltitle{
+  justify-content: center;
+  align-items: center;
+  padding-top: 1840px;
+  width: 1258px;
+}
+
+.buykit{
+  padding-top: 64px;
+  padding-left: 718px;
+} 
+
+
+.section3{
+  display: flex;
+  width: 2774.58px;
+  height: 465.59px;
+  padding-top: 190px;
+  padding-right: 718px;
+}
+
+.sec-btn p{
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    padding-left: 771px;
+    padding-top: 19px;
+    color: #444444;
+}
+
+.sec-4{
+  width: 1920px;
+  height: 722px;
+  padding-top: 149px;
+}

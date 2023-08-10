@@ -1,0 +1,19 @@
+.buykit button{
+    background-color: #258464;
+    border-radius: 10px;
+    border: none;
+    width: 484px;
+    height: 65px;
+    box-shadow: 0 5px 10px #003F8791;
+  }
+  
+  .buykit h1{
+    font-size: 28px;
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
