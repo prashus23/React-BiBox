@@ -5,6 +5,7 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
   }
 
 .left-container {
@@ -167,7 +168,34 @@
 }
 
 .sec-4{
-  width: 1920px;
-  height: 722px;
   padding-top: 149px;
+}
+
+.bg-sec{
+  position: absolute;
+  height: 722px;
+  width: 96%;
+}
+
+.product-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product{
+  padding-left: 58px;
+  padding-top: 71px;
+}
+
+.btn-sec4{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  padding-top: 59px;
 }

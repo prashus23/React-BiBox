@@ -19,6 +19,8 @@ import section3 from "./section3-assets/Group 702.png";
 import Button from "../Button/Button";
 
 import bg from "../HeroSection/section-4-assets/background.png";
+import product from "../HeroSection/section-4-assets/product.png";
+import buttons from "../HeroSection/section-4-assets/buttons.png";
 
 const HeroSection = () => {
   return (
@@ -51,13 +53,15 @@ const HeroSection = () => {
           <br />
           <img className="getSample" src={getSample} />
         </div>
-        <div className="videoClip">
+        {/* <div className="videoClip">
           <img className="playellipse" src={ellipseplay} />
           <img className="videoshadow" src={child} />
           <img className="videoimg" src={childvid} />
           <img className="play" src={play} />
+        </div> */}
+        <div>
+          <img className="vidbeltitle" src={belline} />
         </div>
-        <img className="vidbeltitle" src={belline} />
         <div className="buykit">
           <Button title={"BUY A KIT"} />
         </div>
@@ -70,7 +74,16 @@ const HeroSection = () => {
         </div>
 
         <div className="sec-4">
-          <img src={bg} />
+          <img className="bg-sec" src={bg} />
+        </div>
+        <div className="product-container">
+          <img className="product" src={product} />
+          <img className="product" src={product} />
+          <img className="product" src={product} />
+          <img className="product" src={product} />
+        </div>
+        <div className="btn-sec4">
+          <img className="btns" src={buttons} />
         </div>
       </section>
     </main>
